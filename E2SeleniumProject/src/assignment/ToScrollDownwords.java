@@ -22,10 +22,10 @@ driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 driver.get("https://www.selenium.dev/");
 
 
-	 ToScrollDownwords ts = () driver;
+	  ts = () driver;
 
 
-            File src = (File) tss(OutputType.FILE);
+            File src = (File) ts.getScreenshotAs(OutputType.FILE);
             File dest = new File("https://www.selenium.dev/");
 Files.copy(src, dest);
 driver.quit();
