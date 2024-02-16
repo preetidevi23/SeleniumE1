@@ -23,12 +23,12 @@ public class ByExplisitTypeCasting {
         driver.get("https://www.google.co.in");
 
         
-        TakesScreenshot ts = (TakesScreenshot) driver;
+         ts = (TakesScreenshot) driver;
 
         
         File src = (File) ts.getScreenshotAs(OutputType.FILE);
         File dest = new File("./Screenshot/google.png");
         Files.copy(src, dest);
         driver.quit();
-    }
+    }TakesScreenshot
 }
