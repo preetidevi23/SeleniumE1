@@ -11,7 +11,7 @@ import org.openqa.selenium.support.ui.Select;
 public class getFirstSelectedOptionMethod {
 
 	public static void main(String[] args) {
-		WebDriver	driver = new ChromeDriver();
+		WebDriver driver = new ChromeDriver();
 	    driver.manage().window().maximize();
 	    driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(16));
 	    

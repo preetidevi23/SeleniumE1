@@ -10,7 +10,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class ToHandaleDisableElement {
 
 	public static void main(String[] args) throws InterruptedException {
-		WebDriver	driver = new ChromeDriver();
+		WebDriver driver = new ChromeDriver();
 	    driver.manage().window().maximize();
 	    driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(16));// to provide implicitwait
 	    driver.get("https://demoapps.qspiders.com/ui?scenario=1");//to launch webapplication
